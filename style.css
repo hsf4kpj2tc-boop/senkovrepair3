@@ -105,7 +105,9 @@
  .main__item-first, .main__item-desktop{
     display: none;
  }
-
+.main__text-img img{
+  width: 100%;
+ }
 
 @media(min-width:768px){
   .main{
@@ -154,6 +156,9 @@
     padding-left: 16px;
     margin-bottom: 24px;
  }
+  .main__text-img > div{
+  width: 50%;
+}
 }
 @media(min-width:1024px){
 .header__menu,.header__logo,.header__line,.header__profile{
