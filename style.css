@@ -115,14 +115,14 @@
     background-color: white;
     padding: 24px;
     max-width: 320px;
-    width: 100%;
+    gap: 220px;
     box-shadow: 
     16px 0px 52px 0px rgba(14, 24, 80, 0.2),
     -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
  }
  .menu__header{
   display:flex;
